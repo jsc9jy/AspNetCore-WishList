@@ -10,12 +10,12 @@ namespace WishList.Controllers
     {
         public IActionResult Index()
         {
-            return View("../Views/Home/Index");
+            return View("Index");
         }
 
         public IActionResult Error()
         {
-            return View("../Views/Shared/Error");
+            return View("Error");
         }
     }
 }
