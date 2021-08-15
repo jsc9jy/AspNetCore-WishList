@@ -20,9 +20,7 @@ namespace WishList
         {
             services.AddMvc();
             services.AddDbContext<ApplicationDbContext>(options =>
-            {
-                options.UseInMemoryDatabase("WishList");
-            });
+                options.UseInMemoryDatabase("WishList"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
